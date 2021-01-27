@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 5rem;
+}
+img:hover{
+    transform: rotate(-30deg);
+}
