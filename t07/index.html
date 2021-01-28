@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silicon Store | Apple devices for best price</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Sans+JP:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+    <meta name="description" content="Apple smartphones on SALE  Now. Shop world's best devices" />
+    <meta name="keywords" content="apple, smartphone, watch, iphone, mac, notebook, tablet, ipad, macbook" />
+    <meta name="author" content="Dmytro Artemiev">
+  </head>
+  <body>
+    <!-- nav start -->
+    <div class="nav__container">
+      <nav>
+        <div class="menu-btn">
+          <span class="nav-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+        <span class="nav-icon">
+          <i class="fas fa-phone" href="tel:+380953782072"></i>
+        </span>
+        <h1><a class="logo-main" href="#"> Silicon store</a></h1>
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </nav>
+    </div>
+    <!-- end of nav -->
+
+    <!-- start of breadcrump -->
+    <ul class="breadcrumb">
+      <li><a href="/index.html">Home</a></li>
+      <li>Catalog</li>
+    </ul>
+    <!-- end of breadcrump -->
+
+    <!-- products -->
+    <section class="products">
+      <div class="section-model">
+        <h2>Catalog</h2>
+      </div>
+
+      <!-- start of radio filters -->
+      <div class="radio-filters">
+        <div class="form_radio_btn">
+          <input
+            id="smartphone"
+            type="radio"
+            name="type"
+            value="type-smartphone"
+          />
+          <label for="smartphone">Smartphone</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="notebook" type="radio" name="type" value="type-notebook" />
+          <label for="notebook">Notebook</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="tablet" type="radio" name="type" value="type-tablet" />
+          <label for="tablet">Tablet</label>
+        </div>
+        <div class="form_radio_btn">
+          <input id="watch" type="radio" name="type" value="type-watch" />
+          <label for="watch">Watch</label>
+        </div>
+        <div class="form_radio_btn">
+          <input
+            id="all-of-types"
+            type="radio"
+            name="type"
+            value="all-of-types"
+            checked
+          />
+          <label for="all-of-types">All</label>
+        </div>
+      </div>
+      <!-- end of of radio filters -->
+      <!-- start of catalog grid -->
+      <div class="catalog-grid">
+        <!-- start of filters menu -->
+        <div class="filters-menu">
+          <div class="colors-checkbox">
+            <p><b>Device color</b></p>
+            <p>
+              <input
+                type="checkbox"
+                name="color"
+                value="graphite"
+              />Graphite<br />
+              <input type="checkbox" name="color" value="pacific-blue" />Pacific
+              Blue<br />
+              <input type="checkbox" name="color" value="silver" />Silver<br />
+              <input type="checkbox" name="color" value="gold" />Gold<br />
+              <input type="checkbox" name="color" value="space-gray" />Space
+              gray<br />
+              <input type="checkbox" name="color" value="red" />Red<br />
+              <input type="checkbox" name="color" value="blue" />Blue<br />
+            </p>
+          </div>
+          <div class="price-container">
+            <p><b>Price</b></p>
+            <div class="price">
+              <input
+                id="price-range"
+                type="range"
+                value="1849"
+                min="0"
+                max="500"
+              />
+              <p id="price-count"></p>
+            </div>
+          </div>
+        </div>
+        <!-- end of filters menu -->
+        <!-- products center -->
+        <div class="products-center">
+            <!-- single product -->
+            <article class="product type-smartphone memory-128GB price-1399 color-graphite show show-pagin">
+                <div class="img-container">
+                  <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" style="
+                      display: block;
+                      width: 100%;
+                      min-height: 12rem;
+                      cursor: pointer;
+                    " class="product-img" id="current-1">
+                  <div class="slider-container">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" class="product-img thumbnail active_img">
+        
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_2.jpg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_3.jpeg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_4.jpeg" alt="product" class="product-img thumbnail"> 
+                  </div>
+                  <button class="bag-btn" data-id="1">
+                  <i class="fas fa-shopping-cart"></i>
+                  add to cart
+                </button>
+              </div>
+              <h3>iPhone 12 PRO Graphite 128GB 6.1"</h3>
+              <h4>$1399</h4>
+              <p class="status "></p>
+            </article>
+            <!-- end of single product -->
+            <!-- single product -->
+            <article class="product type-smartphone memory-128GB price-1399 color-graphite show show-pagin">
+                <div class="img-container">
+                  <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" style="
+                      display: block;
+                      width: 100%;
+                      min-height: 12rem;
+                      cursor: pointer;
+                    " class="product-img" id="current-1">
+                  <div class="slider-container">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" class="product-img thumbnail active_img">
+        
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_2.jpg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_3.jpeg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_4.jpeg" alt="product" class="product-img thumbnail"> 
+                  </div>
+                  <button class="bag-btn" data-id="1">
+                  <i class="fas fa-shopping-cart"></i>
+                  add to cart
+                </button>
+              </div>
+              <h3>iPhone 12 PRO Graphite 128GB 6.1"</h3>
+              <h4>$1399</h4>
+              <p class="status "></p>
+            </article>
+            <!-- end of single product -->
+            <!-- single product -->
+            <article class="product type-smartphone memory-128GB price-1399 color-graphite show show-pagin">
+                <div class="img-container">
+                  <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" style="
+                      display: block;
+                      width: 100%;
+                      min-height: 12rem;
+                      cursor: pointer;
+                    " class="product-img" id="current-1">
+                  <div class="slider-container">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" class="product-img thumbnail active_img">
+        
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_2.jpg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_3.jpeg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_4.jpeg" alt="product" class="product-img thumbnail"> 
+                  </div>
+                  <button class="bag-btn" data-id="1">
+                  <i class="fas fa-shopping-cart"></i>
+                  add to cart
+                </button>
+              </div>
+              <h3>iPhone 12 PRO Graphite 128GB 6.1"</h3>
+              <h4>$1399</h4>
+              <p class="status "></p>
+            </article>
+            <!-- end of single product -->
+            <!-- single product -->
+            <article class="product type-smartphone memory-128GB price-1399 color-graphite show show-pagin">
+                <div class="img-container">
+                  <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" style="
+                      display: block;
+                      width: 100%;
+                      min-height: 12rem;
+                      cursor: pointer;
+                    " class="product-img" id="current-1">
+                  <div class="slider-container">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_1.jpeg" alt="product" class="product-img thumbnail active_img">
+        
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_2.jpg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_3.jpeg" alt="product" class="product-img thumbnail">
+                    <img src="assets/images/products/iphone/iphone-12-pro-graphite_4.jpeg" alt="product" class="product-img thumbnail"> 
+                  </div>
+                  <button class="bag-btn" data-id="1">
+                  <i class="fas fa-shopping-cart"></i>
+                  add to cart
+                </button>
+              </div>
+              <h3>iPhone 12 PRO Graphite 128GB 6.1"</h3>
+              <h4>$1399</h4>
+              <p class="status "></p>
+            </article>
+            <!-- end of single product -->
+        </div>
+        <div class="empty"></div>
+        <ul class="pagination"></ul>
+      </div>
+
+      <!-- end of products center -->
+    </section>
+    <!-- end of products -->
+
+    <!-- start of cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content"></div>
+        <!-- cart item -->
+        <div class="cart-item"></div>
+        <!-- end of cart item -->
+        <div class="cart-footer">
+          <h3>your total: <span class="cart-total">$0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+    <!-- start of menu -->
+    <div class="menu-overlay">
+      <div class="menu">
+        <span class="close-menu">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>MENU</h2>
+        <div class="menu-container">
+          <form class="example" action="#">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+
+          <a href="/index.html">Home</a>
+          <a href="/catalog.html">Catalog</a>
+          <a href="#subscribe-id">Subscribe</a>
+          <a href="#footer">Contacts</a>
+          <a href="#">Terms of Policy</a>
+          <a href="#">Terms of service</a>
+          <a href="#">Terms and conditions</a>
+          <!-- start of search bar -->
+
+          <!-- end of search bar -->
+        </div>
+      </div>
+    </div>
+    <!-- end of menu-->
+    <!-- start of footer -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="contacts">
+          <p>
+            <a
+              class="fas fa-phone"
+              style="font-size: 2rem;"
+              href="tel:+380953782072"
+            ></a>
+          </p>
+          <p>Kyiv, Ukraine</p>
+        </div>
+        <div class="logo-div">
+          <p class="logo"><a href="index.html">Silicon Store</a></p>
+        </div>
+        <div class="terms">
+          <p>Subscribe</p>
+          <p>Contacts</p>
+          <p>Terms of Policy</p>
+          <p>Terms of Service</p>
+          <p>Terms and conditions</p>
+        </div>
+        <div class="copyright">Silicon Store 2020 © All Right reserved</div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
