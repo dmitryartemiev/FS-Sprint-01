@@ -1,0 +1,19 @@
+.engine{
+    display: flex;
+}
+.search{
+    border-color: lightgray;
+    color: green;
+    padding: 0px 10px;
+    height: 2em;
+    border-radius: 2px;
+    width: 100%;
+
+}
+button{
+    float: right;
+    background-color: darkgray;
+}
+.search:hover, button:hover{
+    color:red;
+}
